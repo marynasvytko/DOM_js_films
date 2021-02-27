@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+}

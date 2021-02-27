@@ -62,9 +62,9 @@ let showUser = document.getElementById('userTbody'),
     divHTML = '';
 for (let i = 0; i < movies.length; i++) {
     if (i % 2 == 0) {
-        divHTML += `<div style="padding: 15px 0px 15px 0px; text-align: center; background:  #EEEEEE;"><img src=${movies[i].Poster}><ul style="list-style-type: none"><li>${movies[i].Title}</li><li>${movies[i].Year}</li><li>${movies[i].Released}</li><li><ul style="list-style-type: none"><li>${movies[i].Team.Director}</li><li>${movies[i].Team.Writer}</li><li>${movies[i].Team.Actors}</li></ul></li><li>${movies[i].Plot}</li></ul></div>`;
+        divHTML += `<div style="background:  #EEEEEE;"><img src=${movies[i].Poster}><ul style="list-style-type: none"><li>${movies[i].Title}</li><li>${movies[i].Year}</li><li>${movies[i].Released}</li><li><ul style="list-style-type: none"><li>${movies[i].Team.Director}</li><li>${movies[i].Team.Writer}</li><li>${movies[i].Team.Actors}</li></ul></li><li>${movies[i].Plot}</li></ul></div>`;
     } else {
-        divHTML += `<div style="padding: 15px 0px 15px 0px; text-align: center; background:  #D0C0C0;"><img src=${movies[i].Poster}><ul style="list-style-type: none"><li>${movies[i].Title}</li><li>${movies[i].Year}</li><li>${movies[i].Released}</li><li><ul style="list-style-type: none"><li>${movies[i].Team.Director}</li><li>${movies[i].Team.Writer}</li><li>${movies[i].Team.Actors}</li></ul></li><li>${movies[i].Plot}</li></ul></div>`;
+        divHTML += `<div style="background:  #D0C0C0;"><img src=${movies[i].Poster}><ul style="list-style-type: none"><li>${movies[i].Title}</li><li>${movies[i].Year}</li><li>${movies[i].Released}</li><li><ul style="list-style-type: none"><li>${movies[i].Team.Director}</li><li>${movies[i].Team.Writer}</li><li>${movies[i].Team.Actors}</li></ul></li><li>${movies[i].Plot}</li></ul></div>`;
     }
 
 }
